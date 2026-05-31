@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Poker/Cards.fs" />
+    <Compile Include="Poker/Hand.fs" />
+    <Compile Include="Poker/Game.fs" />
+    <Compile Include="Poker/Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.*" />
+  </ItemGroup>
+
+</Project>
